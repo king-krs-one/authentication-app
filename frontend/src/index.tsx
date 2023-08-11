@@ -1,4 +1,13 @@
-let x: number = 23
-let list: number[] = [1,2,3,4]
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+// import App from './App';
 
-let listMulti: number[] = list.map(num => num * 2)
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+
+root.render(
+  <React.StrictMode>
+    <div>hello you there again</div>
+  </React.StrictMode>
+);

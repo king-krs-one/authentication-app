@@ -7,17 +7,15 @@
     "build": "node ./esbuild.config.mjs --dev tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/king-krs-one/authentication-app.git"
-  },
   "author": "Jonathan Nickels",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/king-krs-one/authentication-app/issues"
-  },
-  "homepage": "https://github.com/king-krs-one/authentication-app#readme",
   "devDependencies": {
+    "@types/react": "^18.2.20",
+    "@types/react-dom": "^18.2.7",
     "esbuild": "^0.19.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
