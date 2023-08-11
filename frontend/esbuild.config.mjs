@@ -1,3 +1,6 @@
 import esbuild from "esbuild"
 
-console.log(esbuild)
+esbuild.build({
+    entryPoints: ['src/Sample.ts'],
+    outfile: 'dist/bundle.js'
+})
